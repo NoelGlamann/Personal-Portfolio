@@ -1,0 +1,76 @@
+/*
+INDEX CSS 
+
+Noel Glamann
+April 01, 2021
+*/
+
+body{
+    margin: 0;
+}
+
+.heading{
+    display: block;
+    width: 100%;
+}
+.heading h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.bio {
+    display: block;
+    margin-top: 3%;
+    width: 100%;
+}
+.bio img{
+    display: block;
+    float: left;
+    width: 50%; 
+    margin: 0 5%;
+}
+
+.bio .intro{
+    display: block;
+    float: left;
+    width: 35%;
+    background: #FFF2F3;
+}
+
+.intro p{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+/*NAV*/
+.nav{
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFE5D9;
+}
+  
+.nav li {
+    float: left;
+}
+  
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.nav li a:hover {
+    background-color: #F4B9BD;
+}

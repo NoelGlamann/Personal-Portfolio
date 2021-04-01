@@ -1,0 +1,46 @@
+/*
+GENERAL SITE CSS 
+
+Noel Glamann
+April 01, 2021
+*/
+
+body{
+    background: white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*NAV*/
+.nav{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFE5D9;
+}
+  
+.nav li {
+    float: left;
+}
+  
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.nav li a:hover {
+    background-color: #F4B9BD;
+}
