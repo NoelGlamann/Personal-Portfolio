@@ -4,3 +4,49 @@ ABOUT ME PAGE CSS
 Noel Glamann
 April 01, 2021
 */
+
+.pagehead{
+    display: block;
+    width: 100%;
+}
+.pagehead img{
+    width: 100%;
+    opacity: 0.6;
+}
+
+.pagehead p{
+    font-size: 130px;
+    font-family: 'Alex Brush', cursive;
+    position: absolute;
+    text-align: right;
+    top: 25%;
+    left: 40%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.pagehead .sections{
+    position: absolute;
+    text-align: right;
+    top: 68%;
+    left: 86%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(201, 214, 227, 0.6);
+}
+
+.sections a{
+    text-decoration: underline 1px ;
+    font-size: 40px;
+    font-weight:lighter;
+    color: black;
+    padding: 10%;
+    margin-bottom: 1%;
+}
+.sections i{
+    font-size: 20px;
+}
+
+.sections a:hover{
+    color: white;
+}
