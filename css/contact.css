@@ -4,3 +4,44 @@ CONTACT CSS
 Noel Glamann
 April 01, 2021
 */
+
+.main{
+    display: block;
+    width: 80%;
+    margin: 2% 10%;
+    background-image: linear-gradient(#EEF4FB, #EEF4FB, #EEF4FB, #EEF4FB, #DFB7CD);
+    height: 800px;
+}
+.main p{
+    margin: 0;
+    font-size: 130px;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+}
+.left {
+    display: block;
+    width: 40%;
+    margin: 0 5%;
+    float: left;
+    background: none;
+}
+.right {
+    display: block;
+    width: 50%;
+    float: left;
+    background: none;
+}
+.right form{
+    display: block;
+    width: 86%;
+    margin: 0 7%;
+    background: white;
+}
+
+.right form p{
+    color: #843B62;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+
+}

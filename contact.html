@@ -17,7 +17,7 @@ This is my Professional Portfolio.
 
         <!--STYLESHEETS-->
         <link rel="stylesheet" href="css/site.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/contact.css">
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,7 +28,7 @@ This is my Professional Portfolio.
      </head>
 
     <body>
-
+        <!--Navigation Bar-->
         <div class="navbar">
             <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
             <a href="projects.html">Projects</a>
@@ -46,11 +46,59 @@ This is my Professional Portfolio.
                 </div>
             </div> 
             <div class="socials">
-                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/NoelGlamann"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/noel-glamann-34123b192/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="https://m.facebook.com/noel.glamann.1?ref=bookmarks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/noel.glamann/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
+        </div>
+        <!--Content-->
+        <div class="main">
+            <p>
+                Let's get in touch.
+            </p>
+            <div class="left">
+                <div class="mycontact">
+                    <h2><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp Loacted in St. Charles, MO</h2>
+                    <h2><i class="fa fa-phone" aria-hidden="true"></i> &nbsp Phone: <a href="tel:6363177465">+(636) 317 - 7465</a></h2>
+                    <h2><i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp Email: <a href="mailto:someone@example.com">n22grace@gmail.com</a></h2>
+                </div>
+                <hr>
+                <div class="mysocials">
+                    <a href="https://www.instagram.com/noel.glamann/"><i class="fa fa-instagram" aria-hidden="true"></i> &nbsp noel.glamann</a><br>
+                    <a href="https://m.facebook.com/noel.glamann.1?ref=bookmarks"><i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp Noel Glamann</a><br>
+                </div>
+
+            </div>
+            <div class="right">
+                <form>
+                    <p style="font-size: 37px;">Contact Me</p>
+                    <input type="text" id="first" name="first" placeholder="First Name" required>
+                    <input type="text" id="last" name="last" placeholder="Last Name" required><br>
+
+                    <input type="text" id="emadd" name="emadd" placeholder="Email" required>
+                    <input type="text" id="num" name="num" placeholder="Phone (Optional)"><br>
+
+                    <input type="text" id="msg" name="msg" placeholder="Message" required>
+
+                    <p style="font-size: 25px;"> How would you like me to reach you? </p>
+                    <input type="radio" id="conPN" name="conPN" value="phone">
+                    <label for="conPN">Phone Call</label><br>
+                    <input type="radio" id="conTXT" name="conTXT" value="text">
+                    <label for="conTXT">SMS/Text</label><br>
+                    <input type="radio" id="conEM" name="conEM" value="email">
+                    <label for="conEM">Email</label><br>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+                
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="footer">
+            
         </div>
         
     </body>

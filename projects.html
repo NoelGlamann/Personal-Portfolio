@@ -28,7 +28,7 @@ This is my Professional Portfolio.
      </head>
 
     <body>
-
+        <!--Navigation Bar-->
         <div class="navbar">
             <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
             <a href="projects.html">Projects</a>
@@ -46,16 +46,19 @@ This is my Professional Portfolio.
                 </div>
             </div> 
             <div class="socials">
-                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/NoelGlamann"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/noel-glamann-34123b192/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="https://m.facebook.com/noel.glamann.1?ref=bookmarks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/noel.glamann/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
         </div>
+
+        <!--Page Header-->
         <div class="pagehead">
             <p> My Work </p>
         </div>
 
+        <!--Intro to Page-->
         <div class="main">
             <p>
                 In addition to the site you are currently viewing, I have many pieces of work that display a number of skills. Check out the attatchments below to view my latest. 
@@ -63,62 +66,87 @@ This is my Professional Portfolio.
             <div class="gitlink">Additionally, I have repositories on my <a href="https://github.com/NoelGlamann">GitHub account</a> including projects I developed while learning skills in other languages such as Python and Javascript. </div>
         </div>
 
-        <div class="euphoria">
-            <div class="description">
-                <h1>Euphoria Band</h1>
-                <h2>Date(s): March 2021 - Present</h2>
-                <p>
-                    This is a webpage I am still in the process of developing. 
-                    I have been working directly with the band to create the website they want to see.
-                    <strong>This site is still new and under heavy construction</strong>. 
-                </p>
-                <a href="https://github.com/NoelGlamann/euphoria-band-page">GitHub Repository</a>
+        <!--HTML PROJECTS-->
+        <h2>HTML</h2>
+        <!--euphoria-->
+        <button type="button" class="collapsible">Euphoria Band Website</button>
+        <div class="content">
+            <div class="euphoria">
+                <div class="description">
+                    <h1>Euphoria Band</h1>
+                    <h2>Date(s): March 2021 - Present</h2>
+                    <p>
+                        This is a webpage I am still in the process of developing. 
+                        I have been working directly with the band to create the website they want to see.
+                        <strong>This site is still new and under heavy construction</strong>. 
+                    </p>
+                    <a href="https://github.com/NoelGlamann/euphoria-band-page">GitHub Repository</a>
+                </div>
+                <div class="frame">
+                    <iframe src="https://noelglamann.github.io/euphoria-band-page/"></iframe>
+                </div>
+            </div> 
+        </div>
+        <!--jc store-->
+        <button type="button" class="collapsible">JC's Store</button>
+        <div class="content">
+            <div class="jcs">
+                <div class="description">
+                    <h1>JC's Storefront (Home)</h1>
+    
+                </div>
+                <div class="frame">
+                    <iframe src="https://noelglamann.github.io/html-jc-store-repo/"></iframe>
+                </div>
+            </div>        
+        </div>
+        <!--dualberg store-->
+        <button type="button" class="collapsible">Dualberg Community Center</button>
+        <div class="content">
+            <div class="dualberg">
+                <div class="description">
+                    <h1>Dualberg Community Center</h1>
+    
+                </div>
+                <div class="frame">
+                    <iframe src="https://noelglamann.github.io/City-Community-Center/"></iframe>
+                </div>
+            </div>        </div>
 
-            </div>
-            <div class="frame">
-                <iframe src="https://noelglamann.github.io/euphoria-band-page/"></iframe>
-            </div>
+        <!--PYTHON PROJECTS-->
+        <h2>Python</h2>
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <!--JS PROJECTS-->
+        <h2>Javascript</h2>
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <!--Footer-->
+        <div class="footer">
 
         </div>
 
-
-
-
-        <div class="jcs">
-            <div class="description">
-                <h1>JC's Storefront (Home)</h1>
-
-            </div>
-            <div class="frame">
-                <iframe src="https://noelglamann.github.io/euphoria-band-page/"></iframe>
-            </div>
-        </div>
-
-
-
-
-
-
-
-        <br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
-        <div class="dualberg">
-            <div class="description">
-
-            </div>
-            <div class="frames">
-                
-            </div>
-            <h1>Dualberg Community Center</h1>
-
-        </div>
-        
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
     </body>
 </html>
