@@ -31,17 +31,57 @@ April 01, 2021
     float: left;
     background: none;
 }
-.right form{
+.conform{
+    display: block;
+    width: 100%;
+}
+
+.conform form{
     display: block;
     width: 86%;
     margin: 0 7%;
     background: white;
+    padding: 3% 0%;
 }
 
-.right form p{
+.conform form p{
     color: #843B62;
     font-size: 20px;
-    text-align: left;
     font-family: 'Heebo', sans-serif;
 
+}
+
+input[type=text]{
+    padding: 1%;
+    font-size: 15px;
+}
+input[id="first"]{
+    width: 30%;
+    margin-left: 16%;
+}
+input[id="last"]{
+    width: 30%;
+    margin-right: 16%;
+}
+input[id="emadd"]{
+    width: 30%;
+    margin-left: 16%;
+}
+input[id="num"]{
+    width: 30%;
+    margin-right: 16%;    
+}
+input[id="msg"]{
+    width: 63%;
+    margin: 0 16%;
+    height: 300px;
+}
+input[type=checkbox]{
+    margin-left: 16%;
+}
+input[type=submit]{
+    margin-left: 60%;
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
 }
