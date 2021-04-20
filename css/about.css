@@ -50,3 +50,10 @@ April 01, 2021
 .sections a:hover{
     color: white;
 }
+
+.gen, .ach, .skills, .edu, .exp{
+    border-bottom: 1px solid ;
+}
+.footer {
+    position: relative;
+}
