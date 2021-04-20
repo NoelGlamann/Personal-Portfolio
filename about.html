@@ -29,7 +29,7 @@ This is my Professional Portfolio.
 
     <body>
         <!--Navigation Bar-->
-        <div class="navbar">
+        <div class="navbar" id="top">
             <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
             <a href="projects.html">Projects</a>
             <a href="contact.html">Contact</a>
@@ -38,11 +38,12 @@ This is my Professional Portfolio.
                     <i class="fa fa-caret-down"></i></a>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">General</a>
-                    <a href="#">Achievements</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Education</a>
-                    <a href="#">Experience</a>
+                    <a href="#gen">General</a>
+                    <a href="#ach">Achievements</a>
+                    <a href="#ski">Skills</a>
+                    <a href="#edu">Education</a>
+                    <a href="#exp">Experience</a>
+                    <a href="#tes">Testimonials</a>
                 </div>
             </div> 
             <div class="socials">
@@ -57,28 +58,172 @@ This is my Professional Portfolio.
             <img src="img/headback-about.JPG">
             <p>About Me</p>
             <div class="sections">
-                <a href="#">General <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
-                <a href="#">Achievements <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
-                <a href="#">Skills <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
-                <a href="#">Education <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
-                <a href="#">Experience <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
+                <a href="#gen">General <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
+                <a href="#ach">Achievements <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
+                <a href="#ski">Skills <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
+                <a href="#edu">Education <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
+                <a href="#exp">Experience <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
+                <a href="#tes">Testimonials <i class="fa fa-angle-down" aria-hidden="true"></i></a><br>
             </div>
         </div>
 
-        <div class="ach">
+        <div id="gen" class="gen" style="background: red;">
+            <h1> General </h1>
+            <p>I am a </p>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
+        </div>
+
+        <div id="ach" class="ach" style="background: orange;">
             <h1> Achievements </h1>
+
+            <h2>SKillsUSA Competitions:</h2>
+            <ul>
+                <li>Related Technical Math State Competition: First Place (April 2021)</li>
+                <li>Related Technical Math District Competition: Second Place (February 2021, February 2020)</li>
+                <li>Web Design District Competition: Third Place (February 2020)</li>
+            </ul>
+
+            <h2>Awards</h2>
+            <ul>
+                <li>NCWIT Aspirations in Computing: Regional Affiliate Winner 2021</li>
+            </ul>
+
+            <h2>Leadership Positions</h2>
+            <ul>
+                <li>Senior Class Officer (2020-2021)</li>
+            </ul>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
         </div>
 
-        <div class="skills">
+        <div id="ski" class="skills" style="background: yellow;">
             <h1> Skills </h1>
+            <ol>
+                <li>Website Development
+                    <ul>
+                        <li>HTML5
+                            <ul>
+                                <li>Designing Page Layout</li>
+                                <li>Tables, iFrames, Forms</li>
+                                <li>Incorporating Multimedia</li>
+                            </ul>
+                        </li>
+                        <li>CSS
+                            <ul>
+                                <li>Graphic Alterations</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </li>
+                        <li>SQL & Database Administration</li>
+                        <li>Javascript
+                            <ul>
+                                <li>Specific Skills: 
+                                    <ul>
+                                        <li>Arrays, Loops, Conditionals</li>
+                                        <li>Working with Style Sheets</li>
+                                        <li>Programming for Web Forms</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Program Design
+                    <ul>
+                        <li>Software Dev. Cycle/Tools --pseudocode, charts</li>
+                        <li>AGILE Development</li>
+                        <li>Collaborative Programming</li>
+                    </ul>
+                </li>
+                <li>Python Programming
+                    <ul>
+                        <li>IDE Fundamentals</li>
+                        <li>Specific Skills: 
+                            <ul>
+                                <li>Input/Output Statements</li>
+                                <li>Calculations</li>
+                                <li>Selection/Loop Structures</li>
+                                <li>Data Handling</li>
+                                <li>GUI Design Using tkinter</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li> Linux Operating System
+                    <ul>
+                        <li>Debian & Ubuntu</li>
+                        <li>History & Terminology</li>
+                        <li>Command Line Basics</li>
+                        <li>Open Source Software Concepts</li>
+                     </ul>
+                </li>
+            </ol>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
         </div>
 
-        <div class="edu">
+        <div id="edu" class="edu" style="background: green;">
             <h1> Education </h1>
+            <div>
+                <h2>Lewis and Clark Career Center</h2>
+                <h3>Date of Attendence: August 2019 - May 2021</h3>
+                <ul>
+                    <li>Courses Taken: Computer Software Development I & II</li>
+                    <li>SkillsUSA Organization Member</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Fort Zumwalt West High School</h2>
+                <h3>Date of Attendence: August 2017 - May 2021</h3>
+                <ul>
+                    <li>GPA at Graduation: TBD</li>
+                    <li>A+ Tutor</li>
+                    <li>Class Officer</li>
+                    <li>Honor Roll</li>
+                </ul>
+            </div>
+            <div>
+                <h2>
+                    (Committed) Neumont College of Computer Science<br>
+                    <em>-future attendee</em>
+                </h2>
+                <h3>Anticipated Date of Attendence: Fall 2021 - Fall 2023</h3>
+            </div>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
         </div>
 
-        <div class="exp">
-            <h1> Experience </h1>
+        <div id="exp" class="exp" style="background: purple;">
+            <h1> Employment Experience</h1>
+            <ul>
+                <li>
+                    Von Maur
+                    <ul>
+                        <li>Employement: September 2019 - September 2021</li>
+                        <li>Position: Children's Department Sales Associate</li>
+                        <li>Job Description: </li>
+                    </ul>
+                </li>
+                <li>
+                    Old Navy
+                    <ul>
+                        <li>Employement: September 2018 - August 2019</li>
+                        <li>Position: Brand Associate</li>
+                        <li>Job Description: </li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
+        </div>
+
+        <div id="tes" class="test" style="background: pink;">
+            <h1>Testimonials</h1>
+            <h2> Thorin Schmidt </h2>
+            <h2> Dalisay Terry </h2>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
         </div>
 
         <!--Footer-->
