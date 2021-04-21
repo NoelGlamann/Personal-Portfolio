@@ -8,18 +8,25 @@ April 01, 2021
 .pagehead{
     display: block;
     width: 100%;
+    background-image: linear-gradient(#37526D, white, white);
+    height: 780px;
 }
 .pagehead img{
-    width: 100%;
-    opacity: 0.6;
+    display: block;
+    position: absolute;
+    width: 40%;
+    top:10%;
+    left: 5%;
+    right:5%;
+    border: solid 2px #37526D;
 }
 
 .pagehead p{
-    font-size: 130px;
+    font-size: 140px;
     font-family: 'Alex Brush', cursive;
     position: absolute;
     text-align: right;
-    top: 25%;
+    top: 5%;
     left: 40%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -27,20 +34,28 @@ April 01, 2021
 .pagehead .sections{
     position: absolute;
     text-align: right;
-    top: 68%;
-    left: 86%;
-    width: 20%;
+    top: 35%;
+    left: 72%;
+    width: 50%;
     transform: translate(-50%, -50%);
 
     background: rgba(201, 214, 227, 0.6);
 }
+.pagehead .gen{
+    position: absolute;
+    width: 38%;
+    top: 45%;
+    left: 55%;
+    font-size: 25px;
+}
 
 .sections a{
     text-decoration: underline 1px ;
-    font-size: 40px;
+    font-size: 30px;
     font-weight:lighter;
     color: black;
-    padding-right: 10%;
+    padding-right: 3%;
+    text-align: center;
     margin-bottom: 1%;
 }
 .sections i{
@@ -51,9 +66,12 @@ April 01, 2021
     color: white;
 }
 
-.gen, .ach, .skills, .edu, .exp{
-    border-bottom: 1px solid ;
+.ach, .skills, .edu, .exp{
 }
 .footer {
     position: relative;
+}
+
+.ach, .edu, .test{
+    background:rgba(201, 214, 227, 0.6);
 }
