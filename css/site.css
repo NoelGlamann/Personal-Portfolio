@@ -112,3 +112,12 @@ a{
     margin: 0;
     text-align: right;
 }
+/* ============================================
+	Mobile Devices: 0 - 480 pixels
+   ============================================
+*/
+@media only screen and (max-width: 480px){
+  .navbar a{
+      font-size: 30px;
+  }
+}
