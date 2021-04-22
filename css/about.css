@@ -76,3 +76,8 @@ April 01, 2021
 .ach, .edu, .test{
     background:rgba(201, 214, 227, 0.6);
 }
+
+div.ach > h1{
+    font-size: 40px;
+
+}

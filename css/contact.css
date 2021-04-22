@@ -9,13 +9,13 @@ April 01, 2021
     display: block;
     width: 80%;
     margin: 2% 10%;
-    background-image: linear-gradient(#EEF4FB, #EEF4FB, #EEF4FB, #EEF4FB, #DFB7CD);
+    background-image: linear-gradient(#EEF4FB, #EEF4FB, #EEF4FB, #EEF4FB, #37526D);
     height: 800px;
 }
 .main p{
     margin: 0;
     font-size: 130px;
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .left {
@@ -24,6 +24,14 @@ April 01, 2021
     margin: 0 5%;
     float: left;
     background: none;
+}
+div.mysocials{
+    text-align: right;
+}
+div.mysocials > a{
+    color: black;
+    font-size: 40px;
+    
 }
 .right {
     display: block;
@@ -48,7 +56,6 @@ April 01, 2021
     color: #843B62;
     font-size: 20px;
     font-family: 'Heebo', sans-serif;
-
 }
 
 input[type=text]{
