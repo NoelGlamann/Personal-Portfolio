@@ -1,0 +1,67 @@
+/*
+Noel Glamann
+April 27, 2021
+
+New CSS for Responsive Design
+*/
+.saying{    
+    font-family: 'Unica One', cursive;
+    text-align: center;
+}
+
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+
+@media only screen and (max-width: 480px){
+    /*Desktop Elements Only*/
+    div.intro{display: none;}
+
+    .heading h1{
+        font-size: 11vw;
+    }
+    .bio img{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .saying {
+        width: 90%;
+        margin: 5%;
+        font-size: 9vw;
+    }
+
+}
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
+@media only screen and (min-width: 481px){
+    div.mobilesocials{display: none;}
+    .heading h1{
+        font-size: 9vw;
+        margin: 20px;
+    }
+    .bio{
+        width: 100%;
+    }
+    .bio img{
+        width: 50%; 
+        margin: 0 2.5%;
+        float: left;
+    }
+    .saying{
+        width: 42.5%;
+        margin-right: 2.5%;
+        float: left;
+        font-size: 5vw;
+    }
+    .intro{
+        width: 42.5%;
+        margin-right: 2.5%;
+        float: left;
+        background: #E4EAF1;
+        color: #37526D;
+    }
+}

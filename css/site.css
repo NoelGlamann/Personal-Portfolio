@@ -6,10 +6,6 @@ April 01, 2021
 */
 
 body{
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
   background: white;
   margin: 0;
   font-family: 'Heebo', sans-serif;
