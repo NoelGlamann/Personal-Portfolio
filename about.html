@@ -18,8 +18,8 @@ This is my Professional Portfolio.
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
         <!--STYLESHEETS-->
-        <link rel="stylesheet" href="css/site.css">
-        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/site2.css">
+        <link rel="stylesheet" href="css/about2.css">
 
         <!--GOOGLE FONTS-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,25 +29,27 @@ This is my Professional Portfolio.
         <script src="https://use.fontawesome.com/0610ee3ec9.js"></script>
      </head>
 
-    <body>
+     <body>
         <!--Navigation Bar-->
-        <div class="navbar" id="top">
-            <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-            <div class="dropdown">
-                <button class="dropbtn"><a href="about.html">About 
-                    <i class="fa fa-caret-down"></i></a>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#gen">General</a>
-                    <a href="#ach">Achievements</a>
-                    <a href="#ski">Skills</a>
-                    <a href="#edu">Education</a>
-                    <a href="#exp">Experience</a>
-                    <a href="#tes">Testimonials</a>
-                </div>
-            </div> 
+        <div class="navbar">
+            <div class="links">
+                <a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                <a href="projects.html" id="option">Projects</a>
+                <a href="contact.html" id="option">Contact</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="about.html">About 
+                        <i class="fa fa-caret-down"></i></a>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="about.html#gen">General</a>
+                        <a href="about.html#ach">Achievements</a>
+                        <a href="about.html#ski">Skills</a>
+                        <a href="about.html#edu">Education</a>
+                        <a href="about.html#exp">Experience</a>
+                        <a href="about.html#tes">Testimonials</a>
+                    </div>
+                </div> 
+            </div>
             <!--Top Socials-->
             <div class="socials">
                 <a href="https://github.com/NoelGlamann"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -56,6 +58,20 @@ This is my Professional Portfolio.
                 <a href="https://www.instagram.com/noel.glamann/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
         </div>
+        <div class="mobilemenu">
+            <div class="topnav">
+                <a href="#home" class="active">N</a>
+                <div id="myLinks">
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
         <!--page heading and navigation menu to different IDs-->
         <div class="pagehead">
             <img src="img/me.JPG">
@@ -63,7 +79,7 @@ This is my Professional Portfolio.
             <div class="sections">
                 <a href="#ach">Achievements</a>
                 <a href="#ski">Skills </a>
-                <a href="#edu">Education </a>
+                <a href="#edu">Education </a><br>
                 <a href="#exp">Experience </a>
                 <a href="#tes">Testimonials </a>
             </div>
@@ -71,7 +87,7 @@ This is my Professional Portfolio.
             <div id="gen" class="gen">
                 <span style="font-size: 35px; font-family: 'Handlee', cursive;">Hey There!</span><br>
                 My name is Noel Glamann. I'm a high school senior born and raised in the suberbia of Missouri.
-                Currently, I am preparing for my college studies in Salk Lake City where I will be focusing on
+                Currently, I am preparing for my college studies in Salt Lake City where I will be focusing on
                 software development and business management. I could live the rest of my life eating nothing but 
                 chick-fil-a and speaking in only Friends quotes. In the future, I plan to use my skills 
                 as a project manager for an impactful tech company. I also hope to be a leader for girls around 
@@ -81,6 +97,180 @@ This is my Professional Portfolio.
         </div>
 
 
+        <!--achievements-->
+        <button type="button" class="collapsible">Achievements &nbsp  <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <div class="content">
+            <div id="mobach" class="mobach">
+                <h1> Achievements </h1>
+    
+                <h2>SKillsUSA Competitions:</h2>
+                <ul>
+                    <li>Related Technical Math State Competition: First Place (April 2021)</li>
+                    <li>Related Technical Math District Competition: Second Place (February 2021, February 2020)</li>
+                    <li>Web Design District Competition: Third Place (February 2020)</li>
+                </ul>
+    
+                <h2>Awards</h2>
+                <ul>
+                    <li>NCWIT Aspirations in Computing: Regional Affiliate Winner 2021</li>
+                </ul>
+    
+                <h2>Leadership Positions</h2>
+                <ul>
+                    <li>Senior Class Officer (2020-2021)</li>
+                </ul>
+                <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
+            </div>     
+        </div>
+
+        <!--skills-->
+        <button type="button" class="collapsible">Skills &nbsp  <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <div class="content">
+        <div id="mobski" class="mobskills">
+            <h1> Skills </h1>
+            <ol>
+                <!--webdev-->
+                <li><strong>Website Development</strong>
+                    <ul>
+                        <li>HTML5
+                            <ul>
+                                <li>Designing Page Layout</li>
+                                <li>Tables, iFrames, Forms</li>
+                                <li>Incorporating Multimedia</li>
+                            </ul>
+                        </li>
+                        <li>CSS
+                            <ul>
+                                <li>Graphic Alterations</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </li>
+                        <li>SQL & Database Administration</li>
+                        <li>Javascript
+                            <ul>
+                                <li>Specific Skills: 
+                                    <ul>
+                                        <li>Arrays, Loops, Conditionals</li>
+                                        <li>Working with Style Sheets</li>
+                                        <li>Programming for Web Forms</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--programming-->
+                <li><strong>Program Design</strong>
+                    <ul>
+                        <li>Software Dev. Cycle/Tools --pseudocode, charts</li>
+                        <li>AGILE Development</li>
+                        <li>Collaborative Programming</li>
+                    </ul>
+                </li>
+                <li><strong>Python Programming</strong>
+                    <ul>
+                        <li>IDE Fundamentals</li>
+                        <li>Specific Skills: 
+                            <ul>
+                                <li>Input/Output Statements</li>
+                                <li>Calculations</li>
+                                <li>Selection/Loop Structures</li>
+                                <li>Data Handling</li>
+                                <li>GUI Design Using tkinter</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!--linux-->
+                <li> <strong>Linux Operating System</strong>
+                    <ul>
+                        <li>Debian & Ubuntu</li>
+                        <li>History & Terminology</li>
+                        <li>Command Line Basics</li>
+                        <li>Open Source Software Concepts</li>
+                     </ul>
+                </li>
+            </ol>
+            <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+
+        </div>
+        </div>
+        <!--education-->
+        <button type="button" class="collapsible">Education &nbsp  <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <div class="content">
+            <div id="mobedu" class="mobedu">
+                <h1> Education </h1>
+                <!--lcc-->
+                <div>
+                    <h2>Lewis and Clark Career Center</h2>
+                    <h3>Date of Attendence: August 2019 - May 2021</h3>
+                    <ul>
+                        <li>Courses Taken: Computer Software Development I & II</li>
+                        <li>SkillsUSA Organization Member</li>
+                    </ul>
+                </div>
+                <!--fzw-->
+                <div>
+                    <h2>Fort Zumwalt West High School</h2>
+                    <h3>Date of Attendence: August 2017 - May 2021</h3>
+                    <ul>
+                        <li>GPA at Graduation: TBD</li>
+                        <li>A+ Tutor</li>
+                        <li>Class Officer</li>
+                        <li>Honor Roll</li>
+                    </ul>
+                </div>
+                <!--nccs-->
+                <div>
+                    <h2>
+                        (Committed) Neumont College of Computer Science<br>
+                        <em>-future attendee</em>
+                    </h2>
+                    <h3>Anticipated Date of Attendence: Fall 2021 - Fall 2023</h3>
+                </div>
+                <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+    
+            </div>
+        </div>
+        <!--experience-->
+        <button type="button" class="collapsible">Experience &nbsp  <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <div class="content">
+            <div id="mobexp" class="mobexp">
+                <h1> Employment Experience</h1>
+                <ul>
+                    <li>
+                        Von Maur
+                        <ul>
+                            <li>Employement: September 2019 - September 2021</li>
+                            <li>Position: Children's Department Sales Associate</li>
+                            <li>Job Description: </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Old Navy
+                        <ul>
+                            <li>Employement: September 2018 - August 2019</li>
+                            <li>Position: Brand Associate</li>
+                            <li>Job Description: </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+    
+            </div>
+        </div>
+        <!--testimonials-->
+        <button type="button" class="collapsible">Testimonials &nbsp  <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <div class="content">
+            <div id="mobtes" class="mobtest">
+                <h1>Testimonials</h1>
+                <h2> Thorin Schmidt </h2>
+                <h2> Dalisay Terry </h2>
+                <a href="#top"><i class="fa fa-level-up" aria-hidden="true"></i></a>
+    
+            </div>
+        </div>
 
         <!--ACHIEVEMENTS-->
         <div id="ach" class="ach">
@@ -251,5 +441,33 @@ This is my Professional Portfolio.
             <p>Last Updated: April 2021</p>
         </div>
         
+        <!--JS for drop downs-->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+        <!--JS for mobile nav menu-->
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
     </body>
 </html>

@@ -1,0 +1,71 @@
+/*
+Noel Glamann
+April 27, 2021
+
+New CSS for Responsive Design
+*/
+@media only screen and (max-width: 480px){
+    div.gen{display: none;}
+    div.sections{display: none;}
+    div.footer{display: none;}
+    .ach, .skills, .edu, .exp, .test{display: none;}
+   .pagehead img{
+       width: 50%;
+       float: left;
+       margin: 5%;
+    }
+    .pagehead p{
+        width: 35%;
+        float: left;
+        text-align: right;
+        font-size: 13vw;
+        margin-bottom: 9%;
+    }
+    .collapsible {
+        background-color: #E4EAF1;
+        color: black;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 6vw;
+        font-family: 'Heebo', sans-serif;
+
+    }
+    .active, .collapsible:hover {
+        background-color: #37526D;
+        color: white;
+    }
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+    .mobach, .mobskills, .mobedu, .mobexp, .mobtest{
+        width: 95%;
+        margin: 2% 2.5%;
+        background: white;
+    }
+    .content h1{
+        font-size: 7vw;
+        margin: 3%;
+    }
+    .content h2{
+        font-size: 5vw;
+        margin: 5%;
+    }
+    .content h3{
+        font-size: 4.2vw;
+        margin: 3% 6%;
+    }
+    .mobskills ol, ul{
+        padding: 2vw 6vw;
+    }
+}
+  
+@media only screen and (min-width: 481px){
+    
+}

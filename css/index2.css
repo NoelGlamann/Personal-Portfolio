@@ -40,7 +40,7 @@ New CSS for Responsive Design
 @media only screen and (min-width: 481px){
     div.mobilesocials{display: none;}
     .heading h1{
-        font-size: 9vw;
+        font-size: 8vw;
         margin: 20px;
     }
     .bio{
@@ -55,13 +55,18 @@ New CSS for Responsive Design
         width: 42.5%;
         margin-right: 2.5%;
         float: left;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .intro{
-        width: 42.5%;
-        margin-right: 2.5%;
+        width: 37%;
+        margin: 0 4%;
+        margin-top: 2%;
         float: left;
         background: #E4EAF1;
         color: #37526D;
+    }
+    .intro p{
+        margin: 5%;
+        font-size: 1.2vw;
     }
 }
