@@ -26,18 +26,16 @@ h1, h2, h3, h4 {
 a{
     font-family: 'Heebo', sans-serif;
 }
-div.footer{
-    -webkit-order: 100;
-    order: 100;
-    position: absolute;
-    bottom: 1vw;
-    right: 1vw;
-}
 div.footer p{
     margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
+
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
 @media only screen and (max-width: 480px){
     /*MOBILE NAVIGATION BAR*/
     div.navbar{display: none;}
@@ -90,6 +88,10 @@ div.footer p{
     }
 }
   
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
 @media only screen and (min-width: 481px){
     /*DESKTOP NAVIGATION BAR*/
     div.mobilemenu{display: none;}

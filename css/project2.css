@@ -1,0 +1,120 @@
+/*
+Noel Glamann
+April 27, 2021
+
+New CSS for Responsive Design
+*/
+/*
+Noel Glamann
+April 27, 2021
+
+New CSS for Responsive Design
+*/
+
+
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+
+@media only screen and (max-width: 480px){
+    .pagehead p{
+        font-size: 13vw;
+        margin: 2vw;
+    }
+    div.main{
+        font-size: 4vw;
+        width: 90%;
+
+    }
+    button.collapsible{display: none;}
+    div.content{display: none;}
+    .projects{
+        width: 90%;
+        margin: 5%;
+        background: rgba(201, 214, 227, 0.4)
+    }
+    a.moblink{
+        margin-left: 5%;
+        color: black;
+    }
+
+}
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
+@media only screen and (min-width: 481px){
+    
+.pagehead{
+    display: block;
+    width: 100%;
+}
+
+.pagehead p{
+    font-size: 130px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    color: #37526D;
+    margin: 2% 20%;
+}
+
+.main {
+    display: block;
+    width: 80%;
+    background: #E4EAF1;
+    margin-left: 10%;
+}
+
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+.active, .collapsible:hover {
+    background-color: #555;
+}
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
+.euphoria{
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: black;
+}
+
+.description{
+    display: block;
+    width: 20%;
+    float: left;    
+    background: #E7E7E7;
+    height: 500px;
+}
+.frame{
+    display: block;
+    width: 80%;
+    float: left;
+    background: #E7E7E7;
+}
+.frame iframe{
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+}

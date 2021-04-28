@@ -4,6 +4,11 @@ April 27, 2021
 
 New CSS for Responsive Design
 */
+
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
 @media only screen and (max-width: 480px){
     div.gen{display: none;}
     div.sections{display: none;}
@@ -65,7 +70,88 @@ New CSS for Responsive Design
         padding: 2vw 6vw;
     }
 }
-  
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/  
 @media only screen and (min-width: 481px){
+    button.collapsible{display: none;}
+    .mobach, .mobskills, .mobedu, .mobexp, .mobtest{display: none;}
+    .pagehead{
+        display: block;
+        width: 100%;
+        background-image: linear-gradient(#37526D, white, white);
+        float: left;
+        height: 45vw;
+    }
+    .pagehead img{
+        display: block;
+        width: 40vw;
+        margin-left: 5vw;
+        margin-right: 3vw;
+        margin-top: 3vw;
+        border: solid 2px #37526D;
+        float: left;
+    }
+    
+    .pagehead p{
+        font-size: 8vw;
+        font-family: 'Montserrat', sans-serif;
+        text-align: right;
+        width: 40vw;
+        float: left;
+        margin: 4vw;
+    }
+    .pagehead .sections{
+        width: 48vw;
+        background: rgba(201, 214, 227, 0.6);
+        float: left;
+        margin-bottom: 2vw;
+    }
+    .pagehead .gen{
+        width: 40vw;
+        font-size: 1.3vw;
+        text-align: left;
+        float: left;
+    }
+    
+    .sections a{
+        text-decoration: underline 1px ;
+        font-size: 1.7vw;
+        font-weight:lighter;
+        color: black;
+        padding-right: 3%;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+    .sections i{
+        font-size: 20px;
+    }
+    
+    .sections a:hover{
+        color: white;
+    }
+    .main{
+        width: 80vw;
+        margin: 5vw 10vw;
+        border: 2px solid #37526D;
+        box-shadow: 5px 5px 10px #37526D
+    }
+    .ach, .skills, .edu, .exp, .test{
+        width: 90%;
+        padding: 2% 5%;
+        float: left;
+    }
+    .ach, .edu, .test{
+        background:rgba(201, 214, 227, 0.6);
+    }
+    a.btt {
+        float: right;
+        color: black;
+    }
+    div.footer{
+        float: right;
+    }
     
 }
