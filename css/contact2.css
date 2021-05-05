@@ -1,0 +1,63 @@
+/*
+CONTACT CSS 
+
+Noel Glamann
+April 01, 2021
+*/
+
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
+@media only screen and (min-width: 481px){
+    .main{
+        display: block;
+        width: 100%;
+    }
+    .main p.head{
+        margin: 2vw;
+        font-size: 7vw;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    div.left{
+        background: rgba(228, 234, 241, 0.9);
+        width: 30%;
+        margin: 0 5% 0 10%;
+        height: fit-content;
+        float: left;
+    }
+    div.mycontact {
+        margin: 2vw;
+        padding-top: 1.5vw;
+    }
+    div.mysocials{
+        margin-right: 2vw;
+        text-align: right;
+    }
+    div.mysocials > a{
+        color: #37526D;
+        font-size: 2vw;
+    }
+    .memo{
+        display: block;
+        width: 80%;
+        margin: 0 10%;
+        background-image: url('flower.jpeg');
+        background-size: cover;
+        border: white solid 2px;
+    }
+    .memo p{
+        font-family: 'Cookie', cursive;
+        font-size: 4vw;
+        text-align: center;
+        margin: 2vw;
+    }
+    div.right{
+        width: 45%;
+        margin: 0 ;
+        float: left;
+        border: solid 2px #37526D;
+    }
+}

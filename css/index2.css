@@ -8,17 +8,6 @@ New CSS for Responsive Design
     font-family: 'Unica One', cursive;
     text-align: center;
 }
-div.footer{
-    -webkit-order: 100;
-    order: 100;
-    position: absolute;
-    bottom: 1vw;
-    right: 1vw;
-}
-div.footer p{
-    margin: 0;
-    text-align: right;
-}
 
 /* =============================
 	Mobile Styles: 0 - 480 pixels

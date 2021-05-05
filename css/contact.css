@@ -12,25 +12,19 @@ April 01, 2021
     background-image: linear-gradient(#EEF4FB, #EEF4FB, #EEF4FB, #EEF4FB, #37526D);
     height: 800px;
 }
-.main p{
-    margin: 0;
-    font-size: 130px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
 .left {
     display: block;
-    width: 40%;
-    margin: 0 5%;
+    width: 30%;
+    margin: 0 10%;
     float: left;
     background: none;
 }
 div.mysocials{
     text-align: right;
 }
-div.mysocials > a{
-    color: black;
-    font-size: 40px;
+div.mysocials > i{
+    color: #37526D;
+    font-size: 3vw;
     
 }
 .right {
