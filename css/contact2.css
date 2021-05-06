@@ -5,7 +5,56 @@ Noel Glamann
 April 01, 2021
 */
 
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+@media only screen and (max-width: 480px){
+    p.head{display: none;}
+    div.left{display: none;}
+    div.right{display: block; width: 100%;}
 
+    p.topp{
+        text-align: center;
+        font-size: 9vw;
+        margin: 3vw;
+    }
+    input#first, input#last, input#num, input#emadd{
+        width: 40%;
+        margin: 2%;
+        font-size: 4vw;
+        padding: 1vw;
+    }
+    input#first, input#emadd{
+        margin-left: 4%;
+    }
+    textarea{
+        width: 90%;
+        margin-left: 4%;
+        font-size: 4vw;
+        font-family: 'Heebo', sans-serif;
+        font-weight: bold;
+        height: 30vw;
+    }
+    p.lowp{
+        text-align: left;
+        font-size: 7vw;
+        margin: 0.3vw;
+        margin-left: 7%;
+    }
+    input[type="checkbox"]{
+        margin-left: 7%;
+    }
+    label#cbx{
+        font-size: 6vw;
+    }
+    input[type="submit"]{
+        width: 25%;
+        float: right;
+        margin-right: 5%;
+        font-size: 6vw;
+    }
+}
 /* =================================================
 	Tablet and Desktop Styles: 481 pixels and greater
    =================================================
@@ -22,42 +71,88 @@ April 01, 2021
         text-align: center;
     }
     div.left{
-        background: rgba(228, 234, 241, 0.9);
-        width: 30%;
-        margin: 0 5% 0 10%;
+        width: 26%;
+        margin: 0 2% 0 10%;
         height: fit-content;
         float: left;
     }
     div.mycontact {
         margin: 2vw;
-        padding-top: 1.5vw;
+        margin-bottom: 0;
+    }
+    div.mycontact a {
+        color: #6F8AA5;
+    }
+    div.mycontact a:hover {
+        color: #37526D;
     }
     div.mysocials{
-        margin-right: 2vw;
-        text-align: right;
+        margin: 2vw;
+        text-align: left;
     }
     div.mysocials > a{
-        color: #37526D;
+        color:#556D86;
         font-size: 2vw;
     }
-    .memo{
-        display: block;
-        width: 80%;
-        margin: 0 10%;
-        background-image: url('flower.jpeg');
-        background-size: cover;
-        border: white solid 2px;
-    }
-    .memo p{
-        font-family: 'Cookie', cursive;
-        font-size: 4vw;
-        text-align: center;
-        margin: 2vw;
+    div.mysocials > a:hover{
+        color: #37526D;
     }
     div.right{
-        width: 45%;
+        width: 50%;
         margin: 0 ;
         float: left;
-        border: solid 2px #37526D;
+        border: solid 1px #37526D;
+        box-shadow: 8px 7px 11px 4px rgba(73,105,137,0.67);
+        -webkit-box-shadow: 8px 7px 11px 4px rgba(73,105,137,0.67);
+        -moz-box-shadow: 8px 7px 11px 4px rgba(73,105,137,0.67);
+    }
+    form{
+        margin: 2% 5%;
+    }
+    form p {
+        text-align: center;
+    }
+    p.topp{
+        margin: 1vw;
+        font-size: 3vw;
+    }
+    input{
+        margin: 0.5vw;
+        padding: 0.3vw;
+        font-size: 1vw;
+    }
+    input#first, input#emadd{
+        width: 30%;
+        margin-left: 15%;
+
+    }
+    input#last, input#num{
+        width: 30%;
+        margin-right: 15%;
+    }
+    textarea{
+        width: 66%;
+        margin-left: 15%;
+        height: 6vw;
+        resize: none;
+        font-family: 'Heebo', sans-serif;
+        font-size: 1vw;
+        font-weight: bold;
+    }
+    p.lowp{
+        text-align: left;
+        font-size: 1.8vw;
+        margin: 0.3vw;
+        margin-left: 15%;
+    }
+    input[type="checkbox"]{
+        margin-left: 15%;
+    }
+    label#cbx{
+        font-size: 1.2vw;
+    }
+    input[type="submit"]{
+        width: 15%;
+        margin-left: 40%;
     }
 }

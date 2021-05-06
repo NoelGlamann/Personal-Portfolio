@@ -90,32 +90,29 @@ This is my Professional Portfolio.
                     <a href="https://m.facebook.com/noel.glamann.1?ref=bookmarks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>&nbsp &nbsp &nbsp 
                     <a href="https://www.linkedin.com/in/noel-glamann-34123b192/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                 </div>
-                <div class="memo">
-                    <p> It would be great to hear from you.</p>
-                </div>
                 <br>
 
             </div>
-            <!--Contact Form DOES NOT WORK-->
+            <!--Contact Form-->
             <div class="right">
                 <div class="conform">
                     <form action="https://formspree.io/f/xwkavanw" method="POST">
-                        <p style="font-size: 37px; font-weight: bold;">Contact Me</p>
-                        <input type="text" id="first" name="first" placeholder="First Name" required>
-                        <input type="text" id="last" name="last" placeholder="Last Name" required><br>
+                        <p class="topp">Contact Me</p>
+                        <input type="text" id="first" name="First" placeholder="First Name" required>
+                        <input type="text" id="last" name="Last" placeholder="Last Name" required><br>
 
-                        <input type="text" id="emadd" name="emadd" placeholder="Email" required>
-                        <input type="text" id="num" name="num" placeholder="Phone (Optional)"><br>
+                        <input type="text" id="emadd" name="Email Address" placeholder="Email Address" required>
+                        <input type="text" id="num" name="Phone #" placeholder="Phone Number" required><br>
 
-                        <input type="text" id="msg" name="msg" placeholder="Message" required>
+                        <textarea id="msg" name="message" placeholder="Message..."></textarea>
 
-                        <p style="font-size: 25px;"> How can I reach you? </p>
-                        <input type="checkbox" id="conPN" name="conPN" value="phone">
-                        <label for="conPN">Phone Call</label><br>
-                        <input type="checkbox" id="conTXT" name="conTXT" value="text">
-                        <label for="conTXT">SMS/Text</label><br>
-                        <input type="checkbox" id="conEM" name="conEM" value="email">
-                        <label for="conEM">Email</label><br>
+                        <p class="lowp"> How can I reach you? </p>
+                        <input type="checkbox" id="conPN" name="Contact By" value="call">
+                        <label id="cbx" for="conPN">Phone Call</label><br>
+                        <input type="checkbox" id="conTXT" name="Contact By" value="text">
+                        <label id="cbx" for="conTXT">SMS/Text</label><br>
+                        <input type="checkbox" id="conEM" name="Contact By" value="email">
+                        <label id="cbx" for="conEM">Email</label><br>
 
                         <input type="submit" name="submit" value="Send">
 
