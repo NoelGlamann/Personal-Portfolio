@@ -18,6 +18,15 @@ New CSS for Responsive Design
 */
 
 @media only screen and (max-width: 480px){
+    .pagehead img{display: none;}
+    button.collapsible{display: none;}
+    div.content{display: none;}
+    .description{display: none;}
+    iframe{display: none;}
+    img{display: none;}
+    .content p{display: none;}
+    div.right{display: none;}
+    div.left{display: none;}
     .pagehead p{
         font-size: 13vw;
         margin: 2vw;
@@ -27,8 +36,6 @@ New CSS for Responsive Design
         width: 90%;
 
     }
-    button.collapsible{display: none;}
-    div.content{display: none;}
     .projects{
         width: 90%;
         margin: 5%;
@@ -70,6 +77,7 @@ New CSS for Responsive Design
         display: block;
         width: 50%;
         right: 3vw;
+        top: 30vw;
     }
     .main p{
         width: 100%;
@@ -137,5 +145,62 @@ New CSS for Responsive Design
     .frame img{
         width: 100%;
     }
+    div.left{
+        width: 50%;
+        float: left;
+    }
+    div.right{
+        width: 50%;
+        float: left;
+    }
+    img.example{
+        width: 100%;
+    }
 
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 159, 218, 0.8);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text:hover{
+      color: white;
+  }
 }
